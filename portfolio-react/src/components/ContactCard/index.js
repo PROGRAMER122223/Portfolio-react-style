@@ -38,7 +38,7 @@ function ContactCard() {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       
       <form  id="contact-form" onSubmit={handleSubmit} >
         <div>
