@@ -5,7 +5,7 @@
     import PortfolioPage from "./pages/PortfolioPage"
     import ContactMePage from "./pages/ContactMePage"
     import ResumePage from "./pages/ResumePage"
-    import Navbar from "./components/Navbar"
+    import Header from "./components/Header"
  
 
     
@@ -23,7 +23,7 @@
          
           </Routes>
           </main>
-          <Navbar/>
+          <Header/>
         
           </Router >
       
