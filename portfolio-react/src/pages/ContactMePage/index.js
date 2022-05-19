@@ -13,8 +13,9 @@ function ContactMePage () {
                 <PageTitle 
                 paddingTop = {140}
                 paddingBottom = {0}
-                title = "Contact Me"
-            />
+                title = "Contact Me"            
+             />
+             <a uk-icon="icon: receiver" className="contact-icon contact-link-icon" href="tel:860-578-4180">860-578-4180</a>
             <ContactCard />
             <Footer/>
 
