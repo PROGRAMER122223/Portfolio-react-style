@@ -1,6 +1,6 @@
 
     import React from "react";
-    import { HashRouter as Router, Route } from "react-router-dom";
+    import { HashRouter as Router, Route,Routes} from "react-router-dom";
     import AboutMePage from "./pages/AboutMePage"
     import PortfolioPage from "./pages/PortfolioPage"
     import ContactMePage from "./pages/ContactMePage"
@@ -12,21 +12,21 @@
     function App() {
       return (
         <Router>
-         
           <main>
-          <Route exact path="/"  component={AboutMePage} />
-          <Route path="/about"  component={AboutMePage} />
-          <Route path="/portfolio" component={PortfolioPage} />
-          <Route path="/contact" component={ContactMePage} />
-          <Route path="/resume" component={ResumePage} />
+        <Routes>
+          
+          <Route exact path="/"  element={<AboutMePage/>} />         
+          <Route exact path="/about"  element={<AboutMePage/>} />   
+          <Route path="/portfolio" element={<PortfolioPage/>} />
+          <Route path="/contact" element={<ContactMePage/>} />
+          <Route path="/resume" element={<ResumePage/>} />
+         
+          </Routes>
           </main>
           <Navbar/>
-
-
+        
           </Router >
       
-
-
       );
     }
 
