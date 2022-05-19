@@ -1,9 +1,11 @@
 ## React Portfolio
+My personal portfolio built using React and Bootstrap. I'm continually adding projects, modifying content, and updating the look and functionality.
 
 ### Application Deployment 
-
-
+      
+[Deployed link](https://programer122223.github.io/Portfolio-react-style/)
 ### Application Screenshot
+![Application-Screencapture](./src/assets/images/screencapture-programer122223-github-io-Portfolio-react-style-2022-05-19-09_37_26.png)
 
 ### User Story
 
