@@ -4,7 +4,7 @@ import "./style.css";
 import Background from "../../components/Background";
 import imageLink from "../../assets/images/pic1.jpg"
 import PageTitle from "../../components/PageTitle"
-import Resume from "../../assets/resume/MyResume.docx"
+import Resume from "../../assets/resume/resume.docx"
 import Footer from "../../components/Footer";
 
 
